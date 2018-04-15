@@ -1,0 +1,42 @@
+.menu
+  align-items center
+  display flex
+  font-size 16px
+  flex-direction row
+  height 35px
+  text-transform uppercase
+
+
+  &__items
+    align-items center
+    display flex
+    flex-direction row-reverse
+
+    &-item
+      margin-left 50px
+
+      &:last-child
+        margin-left 0
+
+      &-ilnk
+        font-family BebasNeueBold
+        font-size 16px
+        color style_main_text-grey
+        &:hover
+          color style_red
+
+
+
+
+
+    &-share
+      margin-left 50px
+      display flex
+      align-items center
+      background-color style_red
+      size(35px)
+      justify-content center
+
+      .icon
+        fill white
+        size(14px)
